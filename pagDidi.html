@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Pagode do Didi</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+<!-- Início do container na parte superior -->
+<div class="top-container">
+    <div class="app-name">VouChegar</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+</div>
+<!-- Fim do container na parte superior -->
+
+
+    <div class="sidebar" id="sidebar">
+        <h1>Menu</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Lugares mais procurados</a></li>
+            <li><a href="#">Configurações</a></li>
+        </ul>
+    </div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner" style="margin-top: 50px;"> <!-- Adiciona uma margem no topo -->
+
+                <!-- Content -->
+                <section>
+                    <header class="main">
+                        <h1>Pagode do Didi</h1>
+                    </header>
+                                <h3>Descrição</h3>
+                                <p>Ao ficar desempregado, Valdemir de Souza encontrou “um buraquinho” por trás do antigo prédio da Secretaria da Educação, no Centro do Recife, onde decidiu abrir um bar, aproveitando a experiência anterior no ramo. Levou tocadores de seresta para animar o estabelecimento que, de acordo com suas pretensões, seguraria sua vida pelos dois anos seguintes. Em 2021, os dois anos viraram 40, a seresta virou pagode e Valdemir ficou conhecido nacionalmente por Didi, patrimônio vivo de Pernambuco. No ano em que completa quatro décadas de existência, o Pagode do Didi não apenas mantém o público fiel de anos, mas também se vê redescoberto por uma nova geração, movimentando suas sextas como não se via há anos.</p>
+                                <p>A roda do Pagode do Didi sempre foi democrática, com a feitura do som aberta, bastando apenas saber chegar com jeito e se entrosar com os veteranos. “Às vezes eles sabem tocar, mas ficam acanhados de entrar na roda, mas vão se infiltrando aos poucos, pegando confiança aos poucos. Não é só dizer que toca, chegar na roda e atrapalhar. Tem que se entrosar”, conta Didi. Hoje o som é comandado por veteranos de longa data do métier do local, como a cantora Maria Pagodinho. Mas em especial a partir deste ano, com a reabertura progressiva, os entusiastas da música ali feita vêm apresentando novos rostos. E aos montes.</p>
+                        </article>
+                    </div>
+                    <hr class="major" />
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        function toggleMenu() {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
